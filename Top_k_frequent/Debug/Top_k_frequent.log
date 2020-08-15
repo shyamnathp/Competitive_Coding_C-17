@@ -1,0 +1,2 @@
+﻿  ranges_v3_example.cpp
+e:\ranges-v3\vcpkg\installed\x86-windows\include\range\v3\detail\config.hpp(222): fatal error C1189: #error:  range-v3 requires Visual Studio 2019 with the /std:c++17 (or /std:c++latest) and /permissive- options.
