@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ranges_v3_example.cpp">
+    <ClCompile Include="Number_Leaf_Nodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="depth_binary_tree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

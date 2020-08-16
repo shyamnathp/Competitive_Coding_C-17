@@ -69,6 +69,15 @@ bool IsSumTree(shared_ptr<Node> current)
 	return IsSumTree(current->left) && IsSumTree(current->right);
 }
 
+int LeafNodes(shared_ptr<Node> current)
+{
+	static int count=0;
+
+	if (current->left == nullptr && current->right == nullptr)
+		return 1;
+
+	return LeafNodes(current->left) + LeafNodes(current->right);
+}
 int main()
 {
 	auto root = make_shared<Node>(1);
@@ -81,4 +90,5 @@ int main()
 	auto testLevel = FindNodeLevel(root, 4);
 	auto testSum = SumNodes(root);
 	auto testSumTree = IsSumTree(root);
+	auto testLeafNodes = LeafNodes(root);
 }
