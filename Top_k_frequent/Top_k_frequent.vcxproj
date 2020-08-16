@@ -19,8 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="depth_binary_tree.cpp" />
-    <ClCompile Include="Number_Leaf_Nodes.cpp" />
+    <ClCompile Include="Run_Length_Encoding.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
