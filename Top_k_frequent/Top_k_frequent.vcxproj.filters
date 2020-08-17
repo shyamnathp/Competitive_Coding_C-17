@@ -18,5 +18,8 @@
     <ClCompile Include="Run_Length_Encoding.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="deep_copy_linked_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

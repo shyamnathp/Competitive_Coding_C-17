@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="deep_copy_linked_list.cpp" />
     <ClCompile Include="Run_Length_Encoding.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
