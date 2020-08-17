@@ -19,8 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="deep_copy_linked_list.cpp" />
-    <ClCompile Include="Run_Length_Encoding.cpp" />
+    <ClCompile Include="Construct_BST.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
